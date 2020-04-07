@@ -5,7 +5,6 @@ from cat import Cat
 class AnimalTests(unittest.TestCase):
 
     def setUp(self):
-        #print('Pass')
         self.cat1 = Animal('Food', 'Meow')
         self.dog1 = Animal('Food', 'Bark')
  
